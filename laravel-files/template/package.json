@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^6.0.0",
+        "@popperjs/core": "^2.10.2",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1"
+    },
+    "dependencies": {
+        "apexcharts": "^3.33.1",
+        "bootstrap": "^5.0.0",
+        "bootstrap-datetimepicker": "^0.0.7",
+        "datatables": "^1.10.18",
+        "datatables.net": "^1.11.5",
+        "datatables.net-bs4": "^1.11.5",
+        "datetimepicker": "^0.1.39",
+        "eonasdan-bootstrap-datetimepicker": "^4.17.49",
+        "feather-icons": "^4.28.0",
+        "font-awesome": "^4.7.0",
+        "fullcalendar": "^3.2.0",
+        "jquery": "^3.6.0",
+        "jquery-ui-dist": "^1.13.1",
+        "jquery.maskedinput": "^1.4.1",
+        "jvectormap": "^2.0.3",
+        "material-icons": "^1.10.6",
+        "moment": "^2.29.1",
+        "select2": "^4.1.0-rc.0",
+        "slimscroll": "^0.9.1",
+        "validation": "^0.0.1"
+    }
+}
